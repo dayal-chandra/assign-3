@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pet Cat</title>
+    <title>Pet Shop</title>
     <script
       src="https://kit.fontawesome.com/1102def813.js"
       crossorigin="anonymous"
@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="bg-orange-50">
+    <header class="bg-orange-50 mb-8 lg:mb-20">
       <!-- NAV-BAR -->
       <nav
         class="max-w-[1320px] mx-auto flex justify-between items-center sora-font py-7 px-5 lg:px-0 border lg:border-0 border-slate-700"
@@ -78,8 +78,23 @@
     <!-- HEADER END -->
 
     <!-- BANNER START -->
-    <div class="banner">
-      <h1>Pamper Your Pet, Because They Deserve the Best</h1>
+    <div class="banner max-w-[1340px] mx-auto relative">
+      <img class="w-full pt-[100%] lg:pt-0" src="./images/cat-big.png" alt="" />
+      <div class="banner-title absolute top-0 lg:top-5 px-4 lg:px-0">
+        <h1 class="text-[56px] font-normal adlam-display-regular">
+          Pamper Your Pet, <br class="hidden lg:block" />
+          Because They Deserve <br class="hidden lg:block" />
+          the Best
+        </h1>
+        <p class="text-[20px] sora-font font-normal text-slate-500 pb-6">
+          Discover a world of treats, toys, and essentials handpicked for <br />
+          your furry friends. Shop now and make tails wag with joy!
+        </p>
+
+        <button class="text-[20px] py-[6px] px-4 bg-yellow-400 rounded-lg">
+          Find a pet
+        </button>
+      </div>
     </div>
     <!-- BANNER END -->
   </body>
