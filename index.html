@@ -4,6 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Cat</title>
+    <script
+      src="https://kit.fontawesome.com/1102def813.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap");
+
+      .sora-font {
+        font-family: "Sora", serif;
+      }
+
+      .adlam-display-regular {
+        font-family: "ADLaM Display", serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER START -->
+    <header class="bg-orange-50">
+      <!-- NAV-BAR -->
+      <nav
+        class="max-w-[1320px] mx-auto flex justify-between items-center sora-font py-7 px-5 lg:px-0 border lg:border-0 border-slate-700"
+      >
+        <div class="header-logo flex justify-center items-center gap-3">
+          <img src="./images/logo-header.png" alt="" />
+          <h1 class="hidden lg:block text-[26px] font-normal">
+            Browse<span class="text-yellow-500">4</span>Pets
+          </h1>
+        </div>
+
+        <ul
+          class="hidden lg:flex justify-center items-center gap-8 text-[20px] font-normal"
+        >
+          <li>
+            <a class="p-2 hover:bg-yellow-400 rounded-lg" href="#"
+              >Find a pet</a
+            >
+          </li>
+          <li>
+            <a class="p-2 hover:bg-yellow-400 rounded-lg" href="#">Breeds</a>
+          </li>
+          <li>
+            <a class="p-2 hover:bg-yellow-400 rounded-lg" href="#"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <div class="btn hidden lg:block space-x-4 text-[20px] font-normal">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button
+            class="px-5 py-[4px] border border-yellow-400 rounded-lg hover:bg-yellow-400"
+          >
+            Login
+          </button>
+          <button
+            class="px-5 py-[4px] border bg-yellow-400 rounded-lg hover:bg-orange-50"
+          >
+            Register
+          </button>
+        </div>
+        <div class="ham-burger block lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <!-- NAV-BAR END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- BANNER START -->
+    <div class="banner">
+      <h1>Pamper Your Pet, Because They Deserve the Best</h1>
+    </div>
+    <!-- BANNER END -->
+  </body>
 </html>
